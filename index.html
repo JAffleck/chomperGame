@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script type="text/javascript" src="gobblers.js" >
+</script>
+<link rel="stylesheet" text="text/css" href="gobblers.css" />
+</head>
+<body>
+   <h1>It works</h1>
+<form action="" name="form1">
+   <div id="buttons">
+	  <input type="button" name="left" value="Left" onclick="pos(-1,0);" />
+	  <input type="button" name="right" value="Right" onclick="pos(1,0);" />
+	  <input type="button" name="up" value="Up" onclick="pos(0,-1);" />
+	  <input type="button" name="down" value="Down" onclick="pos(0,1);" />
+	  <input type="button" name="hide" value="Hide" onclick="hideSquare()" />
+	  <input type="button" name="show" value="Show" onclick="showSquare()" />
+	  <input type="button" value="Back" onClick="history.back();" >
+	  <input type="button" value="Forward" onClick="history.forward();" >
+   </div>
+</form>
+   <hr />
+   <div id="square">
+	  <p>Absolutely positioned square</p>
+   </div>
+</body>
+</html>
